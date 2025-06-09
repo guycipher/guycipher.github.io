@@ -8,16 +8,18 @@ body {
     font-family: "DM Mono", monospace;
     line-height: 1.7;
     color: #172133;
-    background: #eae5dd;
+    background: #efede9;
     min-height: 100vh;
 }
 
 a, a:visited {
     color: #4c8138;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #305722; 
+    color: #305722;
+    text-decoration: none;
 }
 
 .container {
@@ -88,11 +90,12 @@ a:hover {
 .card {
     border-radius: 16px;
     padding: 2.5rem;
+    font-size: 0.95rem;
     border: 1px solid #475569;
 }
 
 .section-title {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: #4c8138;
     margin-bottom: 1.5rem;
@@ -106,7 +109,7 @@ a:hover {
 }
 
 .story {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     line-height: 1.8;
     color: #0e1b2c;
 }
@@ -133,7 +136,7 @@ a:hover {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 2px;
+    width: 6px;
     background: linear-gradient(to bottom, #4c8138, #d6ae7b);
 }
 
@@ -148,11 +151,11 @@ a:hover {
     position: absolute;
     left: -6px;
     top: 0.5rem;
-    width: 12px;
-    height: 12px;
-    background: #d67b7b;
+    width: 8px;
+    height: 8px;
+    background: #d6ae7b;
     border-radius: 50%;
-    border: 2px solid #ab4343;
+    border: 2px solid rgba(255,255,255,0.4);
 }
 
 .timeline-year {
@@ -164,6 +167,7 @@ a:hover {
 
 .timeline-content {
     color: #3e493a;
+    font-size: 0.95rem;
     line-height: 1.6;
 }
 
@@ -180,7 +184,7 @@ a:hover {
 }
 
 .project-card {
-    background: #decc9e;
+    background: #ffe293;
     border-radius: 12px;
     padding: 1.5rem;
     border: 1px solid #3a5031;
@@ -214,9 +218,9 @@ a:hover {
 }
 
 .project-description {
-    color: #5a676c;
+    color: rgba(0,0,0,0.68);
     line-height: 1.6;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
 }
 
 .quote-me {
